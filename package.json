@@ -1,28 +1,25 @@
 {
-  "name": "blog",
+  "name": "markdown-blog",
   "version": "1.0.0",
-  "description": "Blog application Using Node JS Express And MongoDB",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ragnar-codes/Blog.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ragnar-codes/Blog/issues"
-  },
-  "homepage": "https://github.com/ragnar-codes/Blog#readme",
   "dependencies": {
-    "ejs": "^3.1.7",
-    "express": "^4.17.3",
-    "marked": "^4.0.14",
+    "dompurify": "^2.0.8",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "jsdom": "^16.2.1",
+    "marked": "^0.8.0",
     "method-override": "^3.0.0",
-    "mongoose": "^6.3.1",
-    "slugify": "^1.6.5"
+    "mongoose": "^5.9.4",
+    "slugify": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
